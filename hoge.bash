@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo hoge
+echo boku
