@@ -7,3 +7,6 @@ raspberrypi3のPWMを出力できるピンを使ってLEDの輝きの強さを�
 1.デューティー比の設定
 2.デューティー比のラズパイへの渡し方
 が分からなかった
+led_on.bashおよびled_off.bashで
+dev/glow_led0にパーミッションを与えて
+GPIO25のon/offを切り替えることができる
