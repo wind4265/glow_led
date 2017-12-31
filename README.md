@@ -1,2 +1,9 @@
 # glow_led
-study of device driver and git
+raspberrypi3のGPIOピンの出力を操作するデバイスドライバを作成した。
+raspberrypi3のPWMを出力できるピンを使ってLEDの輝きの強さを制御しようとしたが、
+1.PWMを使用できるピンが18番であること
+2.ピンのモードをGPFSEL5にセットすること
+までは調査できたが
+1.デューティー比の設定
+2.デューティー比のラズパイへの渡し方
+が分からなかった
